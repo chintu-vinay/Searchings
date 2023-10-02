@@ -1,20 +1,3 @@
-# Using built-in functions
-
-ran = int(input("Enter the range of numbers : "))
-l1 = []
-print("Enter the numbers : ")
-for i in range(ran):
-    l1.append(int(input()))
-# Taking search element as input
-sea_ele = int(input("Enter search element : "))
-if(sea_ele in l1):
-    print(f"Search element found at index number {l1.index(sea_ele)}")
-else:
-    print("Search element is not present in given list")
-
-
-# Without using built-in functions
-
 ran = int(input("Enter the range of numbers : "))
 l1 = []
 # Initilizing search element found value as 0
